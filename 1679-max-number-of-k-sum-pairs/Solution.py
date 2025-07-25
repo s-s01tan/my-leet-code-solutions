@@ -10,4 +10,5 @@ class Solution:
                 result += 1
             else:
                 num_dict[num] = num_dict.get(num, 0) + 1
+
         return result
